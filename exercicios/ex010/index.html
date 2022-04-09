@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Tipos de Links</h1>
+    <h2>Usando links externos</h2>
+    <p>Você pode acessar o meu <a href="http://gustavoguanabara.github.io/" target="_blank" rel="external">repositório publico no github</a></p> <!-- com esses dois parametros os links são abertos em outra aba -->
+    <p>Você tammbém pode acessar <a href="http://youtube.com/cursoemvideo/">meu canal gratuito no youtube</a></p> <!-- Sem esses parametros o link é sobreposto sobre seu site, em relação a links externos-->
+    <h2>Usando links internos</h2>
+    <P>Esta é a primeira pagina do site, se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda pagina</a>.</P>
+    <p>Você também ppode acessar nossa <a href="noticias/pag003.html">página de noticias</a></p>
+    <h2>Links para downloads</h2>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li> <!-- o uso de parametros para downloads deve ser usado dependendo do navegador -->
+        <li><a href="livro/meulivro.zip">Livro compactado em ZIP</a></li>
+        <li><a href="#">Próximos downloads em breve</a></li> <!-- adicionar "#" ao href deixa o link vazio, caso você esteja criando um site-->
+    </ul>
+</body>
+</html>

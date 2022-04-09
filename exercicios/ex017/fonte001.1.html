@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medidas de fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans' Arial, Helvetica, sans-serif;
+            /*medidas absolutas
+            cm, mm, in, px, pt, pc
+
+              medidas relativas
+              em, ex, rem, vw, vh, %
+
+              uso apenas das medidas 'px, em'
+              16px geralmente = 1em
+              */ 
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline;
+            /*shorthand(mãozinha) font
+            font-style -> font-weight -> font-size -> font-family (teve-se seguir essa ordem)
+            
+            Ao inves de usar os codigos assim:
+                font-style
+                font-weight
+                font-size
+                fonte-family
+
+            Use assim:
+                font: italic bolder 3em 'work sans', sans-serif;
+                (famosinha shorthand font)
+            */
+
+            /* lighter(+ magrinho) normal bold(negrito) bolder(extra negrito)* podendo usar de 100 em 100 até a 900 */
+            /*weight(peso) width(larguta) height(altura)*/
+        } 
+    </style>
+    <!-- combinação de fontes onde o navegador vai selecionar a que se adapte ao dispositivo, 'safe combinations' para mais opções de fonte 'ctrl+space'-->
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam velit, optio accusantium officia provident eum minus nemo qui eius. Amet maiores officiis, sequi doloribus sit fugiat cum quas distinctio tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint fuga ratione libero sapiente itaque ipsam consequuntur. Vero, illo, corporis vel fugiat accusantium nemo aspernatur repellendus temporibus mollitia odio quia facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repudiandae dolorum quidem neque tenetur debitis molestias fuga ea hic mollitia. Nam, neque blanditiis molestiae laudantium consectetur illo veniam. Natus, assumenda?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ducimus impedit vitae obcaecati? Voluptas pariatur delectus, quisquam corrupti sequi, tempora quas, deserunt voluptate incidunt reprehenderit aliquid dolores ipsam possimus minus.</p>
+    <h2>Subtitulos do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, quas soluta! At, perferendis. Cumque asperiores inventore porro quisquam laudantium. Ad quidem dolores animi dicta, adipisci nulla perferendis beatae quam porro!</p>
+</body>
+</html>

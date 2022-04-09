@@ -1,0 +1,22 @@
+body {
+    font: 1em Arial, Helvetica, sans-serif;
+    background-color: peachpuff;
+}
+article#caixa {
+    background-color: snow;
+    width: 500px;
+    margin: 0px;
+    padding: 1px 10px;
+    border-radius: 10px;
+    /*sombra aqui*/
+}
+nav.menu{
+    color: aliceblue;
+}
+a, abbr {
+    background-color: snow;
+    text-decoration: none;
+    margin: 1%;
+    padding: 1px 10px;
+    border-radius: 10px;
+}

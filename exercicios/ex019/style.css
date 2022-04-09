@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*  tudo que for 'id' em HTML vira '#' em CSS (só pode um elemento e o mesmo em paginas de documentos diferentes)
+    tudo que for clss em HTML vira '.' em CSS (pode varios elementos)*/
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h2 {
+    color:  rgb(51, 77, 49);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+} /* isso é um seletor personalizado */
+
+.basico {
+    color: rgb(52, 136, 49);
+}
+
+.intermediario {
+    color: rgb(136, 120, 49);
+}
+
+.avançado {
+    color: rgb(136, 49, 49);
+}
+
+.destaque {
+    background-color: rgba(134, 136, 49, 0.637);
+}
