@@ -90,6 +90,7 @@ article > h2, p{
     padding: 10px;
 }
 aside{
+    display: flexbox;
     background-color: var(--cor1);
     height: 95%;
     min-width: 19%; 
@@ -97,6 +98,9 @@ aside{
     margin: 1em;
     margin-left: 0px;
     float: right;
+}
+aside>p{
+    
 }
 footer{
     height: 4%;
